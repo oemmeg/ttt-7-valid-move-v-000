@@ -1,7 +1,8 @@
 def valid_move?(board, index)
   if board[index] == " "
     move = true 
-  elsemove = false
+  else
+    move = false
   end
 end
 
